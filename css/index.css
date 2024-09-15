@@ -16,6 +16,8 @@ body {
   padding: 1rem;
   border-radius: 0.6rem;
   margin-bottom: 3rem;
+  box-shadow: 0.25rem 0.5rem rgba(0, 0, 0, 0.8), 0rem 0.375rem 1.25rem rgba(0, 0, 0, 0.19);
+  border: 0.063rem solid #000000;
 }
 
 .card__image-container {
@@ -99,6 +101,6 @@ body {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   .card {
-    width: 16%;
+    width: 20%;
   }
 }
